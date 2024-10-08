@@ -1,0 +1,78 @@
+
+.card-container{
+    margin: 20px;
+    padding: 20px;
+    height: 60vh;
+    width: 25vw;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    border: 2px solid rgb(221, 241, 245);
+    box-shadow: 1px 1px 5px 1px rgb(221, 241, 245);;
+}
+    
+.image-container{
+    display: flex;
+    justify-content: center;
+}
+
+.product-image{
+    height: 220px;
+    width: 200px;
+}
+
+.product-name{
+    font-size: 15px;
+
+}
+.product-desc{
+    font-size: 10px;
+    display: -webkit-box;         
+    -webkit-box-orient: vertical; 
+    -webkit-line-clamp: 2;       
+    overflow: hidden;            
+    text-overflow: ellipsis;     
+    max-height: 3rem;   
+}
+
+.rating-cost-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+}
+
+.add-button{
+    width: 50%;
+    height: 40px;
+    background-color: rgb(233, 192, 57);
+    outline: none;
+    border: 0px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.remove-button{
+    width: 50%;
+    height: 30px;
+    background-color: rgb(212, 33, 9);
+    outline: none;
+    border: 0px;
+    cursor: pointer;
+    border-radius: 10px;    
+}
+
+.price-button-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.rating-text{
+    font-size: 15px;
+
+}
+
+.price-text{
+    font-family: "Roboto";
+    font-size: 25px;
+}
